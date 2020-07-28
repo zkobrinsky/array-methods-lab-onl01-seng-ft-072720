@@ -24,6 +24,3 @@ def using_size(array)
   array.size
   binding.pry
 end
-
-
-using_size([1, 3, 6, 7])
