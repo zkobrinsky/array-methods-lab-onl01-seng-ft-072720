@@ -1,3 +1,5 @@
+require "pry"
+
 def using_include(array, element)
   array.include?(element)
 end
@@ -15,9 +17,9 @@ def using_first(array)
 end
 
 def using_last(array)
-
+  array.last
 end
 
 def using_size(array)
-
+  array.size
 end
